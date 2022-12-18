@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Editor } from './Editor';
-import { UseLocalStorage } from './UseLocalStorage';
+import { UseLocalStorage } from '../Hooks/UseLocalStorage';
 
 function App() {
   
@@ -18,7 +18,7 @@ function App() {
           <script>${js}</script>
         </html>
       `)
-    }, 250)
+    }, 700)
     return () => clearTimeout(timeout)
   }, [html, css, js])
 
@@ -26,23 +26,28 @@ function App() {
   return (
     <>
     <div className="pane top-pane">
-        <Editor language='xml' displayName='HTML'
-        value={html} onChange={setHtml}/>
+        <Editor language='xml'
+        displayName='HTML'
+        value={html} 
+        onChange={setHtml}/>
 
         <Editor 
-        language='css' displayName='CSS'
-        value={css} onChange={setCss}/>
+        language='css'
+        displayName='CSS'
+        value={css} 
+        onChange={setCss}/>
 
-        <Editor language='javascript' displayName='JS'
-        value={js} onChange={setJs}/>
+        <Editor 
+        language='javascript'
+        displayName='JS'
+        value={js}
+        onChange={setJs}/>
     </div>
 
     <div className="bottom-pane">
        <iframe
           srcDoc={srcDoc}
           title = 'output'
-//           sandbox = 'allow-script'
-          frameBorder = '0'
           width = '100%'
           height = '100%'
         ></iframe>

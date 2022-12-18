@@ -3,7 +3,7 @@ body {
 }
 
 .top-pane{
-  background-color: hsl(263, 89%, 22%);
+  background-color: hsl(0, 0%, 0%);
 }
 
 .pane{
@@ -17,7 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: .5rem;
-  background-color: hsl(180, 52%, 64%);
+  background-color: hsl(180, 3%, 21%);
 }
 
 .editor-container.collapsed{
@@ -40,17 +40,17 @@ body {
 .editor-title{
   display: flex;
   justify-content: space-between;
-  background-color: hsl(271, 51%, 38%);
+  background-color: hsl(36, 94%, 44%);
   color: white;
   padding: .5rem .5rem .5rem .5rem;
-  /* padding: 10px; */
+  padding: 10px;
   border-top-right-radius: .5rem;
   border-top-left-radius: .5rem;
 }
 
-/* .CodeMirror{
+.CodeMirror{
   height: 100% !important;
-} */
+}
 
 .code-mirror-wrapper{
   flex-grow: 1;
@@ -59,7 +59,10 @@ body {
   overflow: hidden;
 }
 
+
+
 .bottom-pane{
   height: 50vh;
-  background: hsl(180, 100%, 96%);;
+  width: 215vh;
+  background: hsl(0, 0%, 100%);;
 }
