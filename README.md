@@ -4,6 +4,8 @@ I am a web developer with a vast array of knowledge in many different front end 
 
 
 # About Project
+## Hosted link 
+https://capable-kataifi-422975.netlify.app/
 # Online Code Editor 
 
 This project was made with [Create React App](https://github.com/facebook/create-react-app).
