@@ -9,6 +9,7 @@ https://capable-kataifi-422975.netlify.app/
 
 # Online Code Editor 
 ![Screenshot Capture - 2023-05-13 - 12-00-41](https://github.com/abhishek-06-singh/Online-Code-Editor-/assets/115978151/ff0b0f83-9e69-4722-8a09-49bdb38fcd75)
+![Screenshot Capture - 2023-09-12 - 15-42-29](https://github.com/abhishek-06-singh/Online-Code-Editor-/assets/115978151/0a1acc2b-660a-499c-afd6-f851012e425b)
 
 This project was made with [Create React App](https://github.com/facebook/create-react-app).
 
